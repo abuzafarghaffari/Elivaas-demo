@@ -1,0 +1,21 @@
+
+form{
+    padding:0.5rem;
+    input{
+        margin:10px;
+    }
+}label{
+    width: 67px;
+    text-align: end;
+}
+
+label::before {
+content:"*";
+color:red;
+}
+#phone{
+    padding-left:2px;
+}
+.error{
+    color:red;
+}

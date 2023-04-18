@@ -1,0 +1,27 @@
+.cardContainer {
+  margin-top: 20px;
+  display: grid;
+  /* //grid-template-columns: repeat(4,1fr); */
+  grid-template-columns: 1fr;
+  gap:30px;
+  padding: 20px;
+}
+
+@media (min-width:484px){
+  .cardContainer{
+    grid-template-columns: repeat(2,1fr);
+
+  }
+}
+@media (min-width:1020px){
+  .cardContainer{
+    grid-template-columns: repeat(3,1fr);
+
+  }
+}
+@media (min-width:1361px){
+  .cardContainer{
+    grid-template-columns: repeat(4,1fr);
+
+  }
+}
